@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QiQi Fashion Store</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/mylogo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li style="color:black;"><a href="index.html">HOME</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>QiQi Fashion Store</h1>
+    </section>
+    
+    
+<!--------- store ----------->
+    
+    <section>
+
+        <div class="row">
+            <div class="products-col">
+                <h3>Ann Demeulemeester</h3>
+                <center><img src="images/image1.jpeg" alt="model1" width="200" height="300"></center>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="products-col">
+                <h3>Maison Margiela</h3>
+                <center><img src="images/image3.png" alt="model2" width="200" height="300"></center>>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="products-col">
+                <h3>Walter Van Beirendonck</h3>
+                <center><img src="images/image4.png" alt="model3" width="200" height="300"></center>>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <a href="https://github.com/arinavasileva" class="footer-link"><p><i class="fa fa-heart-o"></i> made by Arina Vasileva</p></a>
+</section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
