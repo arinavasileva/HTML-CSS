@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>QiQi Fashion Store</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/mylogo.jpg" alt="Store logo"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" style="color:black;">HOME</a></li>
+                    <li><a href="products.html" style="color:black;">PRODUCTS</a></li>
+                    <li><a href="contact.html" style="color:black;">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Products</h1>
+
+
+    </section>
+
+    
+<!---------- products ----------->
+   <section class="products">
+        <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <p style="color:black;" class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.></p>
+
+   </section>
+
+        <div class="row">
+            <div class="products-col">
+                <h3>Ann Demeulemeester</h3>
+               <img src="images/image1.jpeg" alt="model1" width="200" height="300" class="center">
+                <p style="color:black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="products-col">
+                <h3>Maison Margiela</h3>
+                <img src="images/image3.png" alt="model2" width="200" height="300" class="center">
+                <p style="color:black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="products-col">
+                <h3>Walter Van Beirendonck</h3>
+                <img src="images/image4.png" alt="model3" width="200" height="300" class="center">
+                <p style="color:black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+  
+
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p style="color:black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p><i class="fa fa-heart-o"></i> made by Arina Vasileva</p>
+</section>
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
